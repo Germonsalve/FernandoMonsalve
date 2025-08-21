@@ -10,9 +10,14 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-medium">FM</span>
+            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center overflow-hidden">
+              <img
+                src="src\foti\Screenshot 2025-08-21 160533.png"
+                alt="Fernando avatar"
+                className="w-full h-full object-contain"
+              />
             </div>
+
             <div>
               <h1 className="text-lg font-medium text-foreground">Dr. Fernando Monsalve</h1>
               <p className="text-sm text-muted-foreground">Centro de Cirugía Nasal</p>
